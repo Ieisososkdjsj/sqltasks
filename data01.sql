@@ -1,0 +1,2 @@
+SELECT * from person;
+SELECT name, age FROM person WHERE address = 'Kazan';
