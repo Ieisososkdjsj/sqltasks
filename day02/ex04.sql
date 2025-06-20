@@ -4,5 +4,5 @@ SELECT
     menu.price AS price
 FROM menu
 JOIN pizzeria ON menu.pizzeria_id = pizzeria.id
-WHERE menu.pizza_name IN ('Margherita', 'pepperoni')
+WHERE menu.pizza_name IN ('cheese pizza', 'pepperoni pizza')
 ORDER BY pizza_name, pizzeria_name;
